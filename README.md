@@ -8,7 +8,7 @@ The book: It's in the repo. ;)
 
 Link to the notes: https://tinyurl.com/m28tchds
 
-Hey, you!
+Hey, genius!
 
 My name is Daudi (some people know me as Lucas) and I'm speaking to you behind
 a computer screen. Isn't that kinda weird?
@@ -23,4 +23,3 @@ code, I decided to create a system of notetaking to help me out.
 
 I come from a design background, so I aim to offer insight from a
 creative perspective and help others out, too.
-
