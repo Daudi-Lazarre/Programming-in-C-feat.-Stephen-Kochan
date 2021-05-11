@@ -17,13 +17,25 @@ int main (void)
 	int fibnum2 = 1;
 	int currentfibnum;
 
-	for(i = 2; i < 15; i++)
+// I took me a little while and some help to understand this.
+
+	// Print the first fib numbers on their own.
+	printf("%i\n", fibnum1);
+	printf("%i\n", fibnum2);
+
+	// Increment from 0 to 13
+	for(i = 0; i < 13; i++)
 	{
-		fibnum1 = i-2;
-		fibnum2 = i-1;
+		// Current number is equal to the sum of the last two
 		currentfibnum = fibnum1 + fibnum2;
+		// The first number is equal to the second number
+		fibnum1 = fibnum2;
+		// The second number is equal to the currentfibnum
+		fibnum2 = currentfibnum;
+		// This is what ties the fibonacci formula together.
+		// See notes for drawing
 		printf("%i\n", currentfibnum);
 	}
 
-	return 0;
+	return(0);
 }
