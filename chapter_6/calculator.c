@@ -1,34 +1,37 @@
 #include <stdio.h>
 
-// Write a program that acts as a printing calculator.
 int main()
 {
 	int accumulator;
 	int num2;
 	char ASMD;
 
-	printf("Beep boop. I am computer. Give me the math.\n");
+// Tell the user what to do.
+	printf("Hey there, user! Type in all the maths.\n");
 
-	// Type in the number, operator and number.
+// Hold space for the user to enter that math.
 	scanf("%i %c %i", &accumulator, &ASMD, &num2);
 
-	// Cycle through these operators when appropriate:
 	switch(ASMD)
 	{
 	case '+':
-		printf("The sum is equal to: %i.", accumulator + num2);
+		printf("The sum of your entry is %i.\n", accumulator + num2);
 		break;
 
 	case '-':
-		printf("The difference is equal to: %i.", accumulator - num2);
+		printf("The difference of your ");
+		printf("entry is %i.\n", accumulator - num2);
 		break;
 
 	case '*':
-		printf("The product is equal to: %i.", accumulator * num2);
+		printf("The product of your entry is ");
+		printf("%i.\n", accumulator * num2);
 		break;
 
 	case '/':
-		printf("The divided is equal to: %i.", accumulator / num2);
+		printf("The quotient of your entry is ");
+		printf("%i.\n", accumulator / num2);
+		break;
 	}
 	return(0);
 }
